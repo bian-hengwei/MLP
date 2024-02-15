@@ -1,0 +1,20 @@
+{
+    "input_dim": 6,
+    "hidden_dims": [8],
+    "output_dim": 1,
+    "activations": ["tanh", "sigmoid"],
+
+    "loss": "crossentropyloss",
+
+    "data_name": "swiss-roll",
+    "batch_size": 16,
+
+    "optimizer": "adam",
+    "learning_rate": 0.008,
+
+    "embeddings": ["x1x2", "sinx1", "sinx2", "x1squaredplusx2squared"],
+
+    "epochs": 1000,
+
+    "save_pattern": "img/q6_S_*.png"
+}

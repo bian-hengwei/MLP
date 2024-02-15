@@ -1,0 +1,20 @@
+{
+    "input_dim": 3,
+    "hidden_dims": [1],
+    "output_dim": 1,
+    "activations": ["linear", "sigmoid"],
+
+    "loss": "crossentropyloss",
+
+    "data_name": "XOR",
+    "batch_size": 16,
+
+    "optimizer": "adam",
+    "learning_rate": 0.005,
+
+    "embeddings": ["x1x2"],
+
+    "epochs": 500,
+
+    "save_pattern": "img/q6_X_*.png"
+}

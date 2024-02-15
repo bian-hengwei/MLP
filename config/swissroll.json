@@ -1,0 +1,18 @@
+{
+    "input_dim": 2,
+    "hidden_dims": [8, 8, 8, 8, 4],
+    "output_dim": 1,
+    "activations": ["relu", "relu", "tanh", "tanh", "tanh", "sigmoid"],
+
+    "loss": "crossentropyloss",
+
+    "data_name": "swiss-roll",
+    "batch_size": 16,
+
+    "optimizer": "adam",
+    "learning_rate": 0.002,
+
+    "epochs": 700,
+
+    "save_pattern": "img/q5_*.png"
+}
